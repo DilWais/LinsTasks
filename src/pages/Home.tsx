@@ -75,7 +75,7 @@ export function Home() {
   const handleRemoveTask = async (id: number) => {
     const newList = tasks.map(task => ({ ...task }));
 
-    Alert.alert('Revomer item', 'Do you really want to remove this task?', [
+    Alert.alert('Remove item', 'Do you really want to remove this task?', [
       {
         style: 'cancel',
         text: 'No'

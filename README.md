@@ -27,7 +27,6 @@
 - [x] Marcar ou desmarcar tarefas como concluídas
 - [x] Contabilizar tarefas cadastradas no App
 
-
 <h2 align="left" id="layout">🎨 Layout</h2>
 
 <p align="justify">O layout da aplicação está disponível no Figma:</p>
@@ -35,7 +34,6 @@
 <a href="https://www.figma.com/file/sC1HJjTXMzghZdrFw6uuVO/Lins-Tasks?node-id=10485%3A499">
   <img alt="Made by Jailson Lins" src="https://img.shields.io/badge/Acessar%20Layout-FIGMA-green">
 </a>
-
 
 <h3 align="left" id="layout">Mobile</h3>
 
@@ -63,7 +61,6 @@
 	🚧  React Native 🚀 Versão 1.0 Concluída.  🚧.
 </p>
 
-
 <h2 align="left" id="autor">🦸 Autor</h2>
 
 <a href="https://github.com/JailsonSantos">
@@ -72,10 +69,8 @@
  <sub><b>Jailson Santos</b></sub></a> <a href="https://www.linkedin.com/in/jailson-santos-726395104/" title="Jailson Santos">🚀</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Jailson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailson-santos-726395104/)](https://www.linkedin.com/in/jailson-santos-726395104/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Jailson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailson-santos-726395104/)](https://www.linkedin.com/in/jailson-santos-726395104/)
 [![Gmail Badge](https://img.shields.io/badge/-jailson.ads007@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jailson.ads007@gmail.com)](mailto:jailson.ads007@gmail.com)
-
-
 
 <h2 align="left" id="licenca">📝 Licença</h2>
 

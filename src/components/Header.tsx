@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     paddingTop: getStatusBarHeight(true) + 16,
     paddingHorizontal: 24,
     paddingBottom: 60,
-    backgroundColor: '#1a8917',
+    backgroundColor: '#0B0B45',
     justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: 'row'
