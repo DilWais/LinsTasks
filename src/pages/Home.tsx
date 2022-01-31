@@ -39,7 +39,7 @@ export function Home() {
     const duplicateTask = tasks.find(task => task.title === newTaskTitle);
 
     if (duplicateTask) {
-      return Alert.alert("Task já cadastrada", "Vc não pode cadastrar uma task como mesmo nome");
+      return Alert.alert("Already registered", "You cannot register a task with the same name");
     }
 
     if (newTaskTitle !== undefined && newTaskTitle !== null) {
@@ -75,14 +75,14 @@ export function Home() {
   const handleRemoveTask = async (id: number) => {
     const newList = tasks.map(task => ({ ...task }));
 
-    Alert.alert('Revomer item', 'Term certeza que você deseja remover esse item?', [
+    Alert.alert('Revomer item', 'Do you really want to remove this task?', [
       {
         style: 'cancel',
-        text: 'Não'
+        text: 'No'
       },
       {
         style: 'destructive',
-        text: 'Sim',
+        text: 'Yes',
         onPress: () => {
           setTasks(oldTasks => oldTasks.filter(task => task.id !== id));
         }

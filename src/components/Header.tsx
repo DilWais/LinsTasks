@@ -12,7 +12,7 @@ interface HeaderProps {
 
 export function Header({ tasksCounter }: HeaderProps) {
 
-  const tasksCounterText = tasksCounter === 1 ? 'tarefa' : 'tarefas'
+  const tasksCounterText = tasksCounter === 1 ? 'Assignment' : 'Tasks'
 
   function handleRemoveStorage() {
     AsyncStorage.removeItem('@storage_tasksList')
@@ -25,7 +25,7 @@ export function Header({ tasksCounter }: HeaderProps) {
       </TouchableOpacity>
 
       <View style={styles.tasks}>
-        <Text style={styles.tasksCounter}>Você tem </Text>
+        <Text style={styles.tasksCounter}>You have </Text>
         <Text style={styles.tasksCounterBold}>{tasksCounter} {tasksCounterText}</Text>
       </View>
     </View>
